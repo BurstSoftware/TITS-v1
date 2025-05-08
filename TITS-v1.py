@@ -454,4 +454,4 @@ department = st.sidebar.selectbox("Select Department", list(curriculum.keys()))
 search_term = st.sidebar.text_input("Search Courses", "")
 level_filter = st.sidebar.multiselect("Filter by Course Level", ["100-200", "300-400", "500-600", "700-800", "900-1000", "1100-1200", "1300-1400"], default=["100-200", "300-400", "500-600", "700-800", "900-1000", "1100-1200", "1300-1400"])
 sort_by = st.sidebar.selectbox("Sort By", ["Code (Ascending)", "Code (Descending)", "Name (A-Z)", "Name (Z-A)"], index=0)
-show_all = st.sidebar.checkbox("Show All
+show_all = st.sidebar.checkbox("Show All Courses in Department", value=False)
